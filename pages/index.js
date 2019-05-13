@@ -10,6 +10,7 @@ import xmas from '../assets/xmas.jpg'
 
 
 
+
 class Index extends React.Component {
   constructor(){
     super()

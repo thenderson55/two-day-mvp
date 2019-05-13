@@ -1394,7 +1394,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/admin/Desktop/chrysalis/two-day-mvp/pages/index.js";
 
 
 
@@ -1438,64 +1437,20 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Index, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "jumbotron bg-dark",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        },
-        __self: this
-      }, "Hello and Welcome!"), "BTC/USD: ", this.props.data.time.updated), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_8__["default"], null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "jumbotron bg-dark"
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", null, "Hello and Welcome!"), "BTC/USD: ", this.props.data.time.updated), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "row"
       }, this.state.cards.map(function (card, i) {
         return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_10__["default"], {
           key: i,
           contacts: card.name,
           description: card.description,
-          photo: card.photo,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 49
-          },
-          __self: this
+          photo: card.photo
         });
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "container text-center",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h4", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      }, "Monthly Rentals in Japan"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55
-        },
-        __self: this
-      }, "In Japan, you can rent an apartment for 30 days or more without a license. However Airbnb and other booking sites have made it policy not to accept any listings unless they have a short-term booking license. Hence, I have created this site to hopefully allow medium-term visitors to Tokyo to find affordable monthly accomodation.")));
+        className: "container text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h4", null, "Monthly Rentals in Japan"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "In Japan, you can rent an apartment for 30 days or more without a license. However Airbnb and other booking sites have made it policy not to accept any listings unless they have a short-term booking license. Hence, I have created this site to hopefully allow medium-term visitors to Tokyo to find affordable monthly accomodation.")));
     }
   }]);
 
