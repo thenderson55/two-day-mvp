@@ -1,16 +1,3 @@
-import Link from 'next/link'
-import  db  from '../data/fakeData';
-import spring from '../assets/spring.jpg'
-
-// console.log(db)
-
-// const data = () =>  {
-//   fetch('./data/apartments.json')
-//     .then(response => response.json())
-//     .then(info => {
-//       this.db = json
-//     })
-//   }
 
 class Card extends React.Component {
 
@@ -20,7 +7,7 @@ class Card extends React.Component {
 
   render() {
   return (
-    <div className="col">
+    <div>
     {/* style={{maxWidth: "25%"}} */}
       <div className="card border-primary mb-3">
         <div className="card-header">{this.props.contacts}</div>
