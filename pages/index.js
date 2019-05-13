@@ -45,9 +45,14 @@ class Index extends React.Component {
           BTC/USD: {this.props.data.time.updated}
         </div>
         <div className="row">
-          {this.state.cards.map(card => {
-            return <Card contacts={card.name} description={card.description} photo={card.photo} />
+          {this.state.cards.map((card, i) => {
+            return <Card key={i} contacts={card.name} description={card.description} photo={card.photo} />
           })}
+        </div>
+
+        <div className="container text-center">
+          <h4>Monthly Rentals in Japan</h4>
+          <p>In Japan, you can rent an apartment for 30 days or more without a license. However Airbnb and other booking sites have made it policy not to accept any listings unless they have a short-term booking license. Hence, I have created this site to hopefully allow medium-term visitors to Tokyo to find affordable monthly accomodation.</p>
         </div>
     </Layout>
     )
