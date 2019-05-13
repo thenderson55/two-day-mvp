@@ -1,5 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./assets/mountain.jpg":
+/*!*****************************!*\
+  !*** ./assets/mountain.jpg ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/mountain-e8cf3a9977a59e31148a70e06ffbf375.jpg";
+
+/***/ }),
+
 /***/ "./assets/spring.jpg":
 /*!***************************!*\
   !*** ./assets/spring.jpg ***!
@@ -8,6 +19,17 @@
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/spring-6489076048a75a4f103b1aae13f63df7.jpg";
+
+/***/ }),
+
+/***/ "./assets/xmas.jpg":
+/*!*************************!*\
+  !*** ./assets/xmas.jpg ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/xmas-7b6c2f52933e47c470ec3578dcaa9ad7.jpg";
 
 /***/ }),
 
@@ -10937,6 +10959,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _data_fakeData__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../data/fakeData */ "./data/fakeData.js");
 /* harmony import */ var _assets_spring_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/spring.jpg */ "./assets/spring.jpg");
 /* harmony import */ var _assets_spring_jpg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_spring_jpg__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _assets_mountain_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/mountain.jpg */ "./assets/mountain.jpg");
+/* harmony import */ var _assets_mountain_jpg__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_mountain_jpg__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _assets_xmas_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/xmas.jpg */ "./assets/xmas.jpg");
+/* harmony import */ var _assets_xmas_jpg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_xmas_jpg__WEBPACK_IMPORTED_MODULE_15__);
 
 
 
@@ -10945,6 +10971,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/Users/admin/Desktop/chrysalis/two-day-mvp/pages/index.js";
+
+
 
 
 
@@ -10966,7 +10994,19 @@ function (_React$Component) {
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Index).call(this));
     _this.state = {
       btc: 'Hello',
-      name: _data_fakeData__WEBPACK_IMPORTED_MODULE_12__["default"].data
+      cards: [{
+        name: _data_fakeData__WEBPACK_IMPORTED_MODULE_12__["default"].data[0].name,
+        description: _data_fakeData__WEBPACK_IMPORTED_MODULE_12__["default"].data[0].description,
+        photo: _assets_spring_jpg__WEBPACK_IMPORTED_MODULE_13___default.a
+      }, {
+        name: _data_fakeData__WEBPACK_IMPORTED_MODULE_12__["default"].data[1].name,
+        description: _data_fakeData__WEBPACK_IMPORTED_MODULE_12__["default"].data[1].description,
+        photo: _assets_mountain_jpg__WEBPACK_IMPORTED_MODULE_14___default.a
+      }, {
+        name: _data_fakeData__WEBPACK_IMPORTED_MODULE_12__["default"].data[2].name,
+        description: _data_fakeData__WEBPACK_IMPORTED_MODULE_12__["default"].data[2].description,
+        photo: _assets_xmas_jpg__WEBPACK_IMPORTED_MODULE_15___default.a
+      }]
     };
     return _this;
   }
@@ -10977,53 +11017,40 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 42
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "jumbotron bg-dark",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 43
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 44
         },
         __self: this
-      }, "Hello and Welcome!"), this.state.btc, "BTC/USD: ", this.props.data.time.updated, this.state.name[2].name), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      }, "Hello and Welcome!"), "BTC/USD: ", this.props.data.time.updated), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 47
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        contacts: this.state.name[0].name,
-        description: this.state.name[0].description,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        contacts: this.state.name[1].name,
-        description: this.state.name[1].description,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        contacts: this.state.name[2].name,
-        description: this.state.name[2].description,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35
-        },
-        __self: this
+      }, this.state.cards.map(function (card) {
+        return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_10__["default"], {
+          contacts: card.name,
+          description: card.description,
+          photo: card.photo,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 49
+          },
+          __self: this
+        });
       })));
     }
   }]);
