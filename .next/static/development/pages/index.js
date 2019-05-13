@@ -41,12 +41,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/admin/Desktop/chrysalis/monthly-mvp/components/Card.js";
+var _jsxFileName = "/Users/admin/Desktop/chrysalis/two-day-mvp/components/Card.js";
 
 
 
-
-console.log(_data_fakeData__WEBPACK_IMPORTED_MODULE_9__["default"]); // const data = () =>  {
+ // console.log(db)
+// const data = () =>  {
 //   fetch('./data/apartments.json')
 //     .then(response => response.json())
 //     .then(info => {
@@ -101,7 +101,7 @@ function (_React$Component) {
           lineNumber: 26
         },
         __self: this
-      }, _data_fakeData__WEBPACK_IMPORTED_MODULE_9__["default"].data[0].name), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      }, this.props.contacts), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "card-body",
         __source: {
           fileName: _jsxFileName,
@@ -109,7 +109,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: _assets_spring_jpg__WEBPACK_IMPORTED_MODULE_10___default.a,
+        src: this.props.photo,
         alt: "",
         className: "img-fluid",
         __source: {
@@ -131,7 +131,7 @@ function (_React$Component) {
           lineNumber: 30
         },
         __self: this
-      }, _data_fakeData__WEBPACK_IMPORTED_MODULE_9__["default"].data[1].description))));
+      }, this.props.description))));
     }
   }]);
 
@@ -139,6 +139,76 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Card);
+
+/***/ }),
+
+/***/ "./components/CardList.js":
+/*!********************************!*\
+  !*** ./components/CardList.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Card */ "./components/Card.js");
+
+
+
+
+
+var _jsxFileName = "/Users/admin/Desktop/chrysalis/two-day-mvp/components/CardList.js";
+
+
+
+var CardList =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(CardList, _React$Component);
+
+  function CardList() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, CardList);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(CardList).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(CardList, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        },
+        __self: this
+      }));
+    }
+  }]);
+
+  return CardList;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (CardList);
 
 /***/ }),
 
@@ -156,7 +226,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
-var _jsxFileName = "/Users/admin/Desktop/chrysalis/monthly-mvp/components/Layout.js";
+var _jsxFileName = "/Users/admin/Desktop/chrysalis/two-day-mvp/components/Layout.js";
 
 
 
@@ -221,7 +291,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/admin/Desktop/chrysalis/monthly-mvp/components/Navbar.js";
+var _jsxFileName = "/Users/admin/Desktop/chrysalis/two-day-mvp/components/Navbar.js";
 
 
 
@@ -6566,9 +6636,9 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Fmonthly-mvp%2Fpages%2Findex.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Ftwo-day-mvp%2Fpages%2Findex.js!./":
 /*!************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Fmonthly-mvp%2Fpages%2Findex.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Ftwo-day-mvp%2Fpages%2Findex.js ***!
   \************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10852,18 +10922,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
 /* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Card */ "./components/Card.js");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/isomorphic-unfetch/browser.js");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _data_fakeData__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../data/fakeData */ "./data/fakeData.js");
-/* harmony import */ var _assets_spring_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/spring.jpg */ "./assets/spring.jpg");
-/* harmony import */ var _assets_spring_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_spring_jpg__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _components_CardList__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/CardList */ "./components/CardList.js");
+/* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Card */ "./components/Card.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/isomorphic-unfetch/browser.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _data_fakeData__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../data/fakeData */ "./data/fakeData.js");
+/* harmony import */ var _assets_spring_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/spring.jpg */ "./assets/spring.jpg");
+/* harmony import */ var _assets_spring_jpg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_spring_jpg__WEBPACK_IMPORTED_MODULE_13__);
 
 
-var _jsxFileName = "/Users/admin/Desktop/chrysalis/monthly-mvp/pages/index.js";
+
+
+
+
+
+var _jsxFileName = "/Users/admin/Desktop/chrysalis/two-day-mvp/pages/index.js";
 
 
 
@@ -10871,53 +10952,84 @@ var _jsxFileName = "/Users/admin/Desktop/chrysalis/monthly-mvp/pages/index.js";
 
 
 
-var Index = function Index(props) {
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "jumbotron bg-dark",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "Hello and Welcome!"), "BTC/USD: ", props.data.bpi["USD"].rate), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  })));
-};
+
+var Index =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Index, _React$Component);
+
+  function Index() {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Index);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Index).call(this));
+    _this.state = {
+      btc: 'Hello',
+      name: _data_fakeData__WEBPACK_IMPORTED_MODULE_12__["default"].data
+    };
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Index, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "jumbotron bg-dark",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }, "Hello and Welcome!"), this.state.btc, "BTC/USD: ", this.props.data.time.updated, this.state.name[2].name), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        contacts: this.state.name[0].name,
+        description: this.state.name[0].description,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        contacts: this.state.name[1].name,
+        description: this.state.name[1].description,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        contacts: this.state.name[2].name,
+        description: this.state.name[2].description,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      })));
+    }
+  }]);
+
+  return Index;
+}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
 
 Index.getInitialProps =
 /*#__PURE__*/
@@ -10956,12 +11068,12 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
 
 /***/ 0:
 /*!****************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Fmonthly-mvp%2Fpages%2Findex.js ***!
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Ftwo-day-mvp%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Fmonthly-mvp%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Fmonthly-mvp%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Ftwo-day-mvp%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Ftwo-day-mvp%2Fpages%2Findex.js!./");
 
 
 /***/ }),

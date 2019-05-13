@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
-var _jsxFileName = "/Users/admin/Desktop/chrysalis/monthly-mvp/components/Layout.js";
+var _jsxFileName = "/Users/admin/Desktop/chrysalis/two-day-mvp/components/Layout.js";
 
 
 
@@ -79,7 +79,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/admin/Desktop/chrysalis/monthly-mvp/components/Navbar.js";
+var _jsxFileName = "/Users/admin/Desktop/chrysalis/two-day-mvp/components/Navbar.js";
 
 
 
@@ -6354,9 +6354,9 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Fmonthly-mvp%2Fpages%2Fabout.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Ftwo-day-mvp%2Fpages%2Fabout.js!./":
 /*!*****************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Fmonthly-mvp%2Fpages%2Fabout.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Ftwo-day-mvp%2Fpages%2Fabout.js ***!
   \*****************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10625,7 +10625,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-var _jsxFileName = "/Users/admin/Desktop/chrysalis/monthly-mvp/pages/about.js";
+var _jsxFileName = "/Users/admin/Desktop/chrysalis/two-day-mvp/pages/about.js";
 
 
 
@@ -10655,14 +10655,14 @@ var About = function About() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Fmonthly-mvp%2Fpages%2Fabout.js ***!
+  !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Ftwo-day-mvp%2Fpages%2Fabout.js ***!
   \*********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Fmonthly-mvp%2Fpages%2Fabout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Fmonthly-mvp%2Fpages%2Fabout.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Ftwo-day-mvp%2Fpages%2Fabout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Ftwo-day-mvp%2Fpages%2Fabout.js!./");
 
 
 /***/ }),
@@ -10678,5 +10678,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=about.js.map
