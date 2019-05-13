@@ -1,12 +1,12 @@
 const withImages = require('next-images')
 module.exports = withImages()
       
-module.exports = {
+// module.exports = {
     
-    onDemandEntries: {
-    // Make sure entries are not getting disposed.
-    maxInactiveAge: 1000 * 60 * 60
-  },
-  // ....
-}
+//     onDemandEntries: {
+//     // Make sure entries are not getting disposed.
+//     maxInactiveAge: 1000 * 60 * 60
+//   },
+//   // ....
+// }
 
