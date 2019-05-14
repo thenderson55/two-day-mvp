@@ -2,6 +2,7 @@ import Layout from '../components/Layout'
 import Card from '../components/Card'
 import Link from 'next/link'
 import Form from '../components/Form'
+import SimpleMap from '../components/Map'
 
 
 import Fetch from 'isomorphic-unfetch'

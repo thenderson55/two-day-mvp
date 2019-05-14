@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Navbar from './Navbar'
+import SimpleMap from './Map'
+
 
 
 const Layout = (props) => {
@@ -13,6 +15,8 @@ const Layout = (props) => {
       <div className="container">
        {props.children}
       </div>
+      <SimpleMap></SimpleMap>
+
     </div>
     
   )
