@@ -1,6 +1,13 @@
 import Layout from "../components/Layout";
 import  db  from '../data/fakeData';
 import Form from '../components/Form'
+import pic1 from '../assets/aptOne1.jpg'
+import pic2 from '../assets/aptOne2.jpg'
+import pic3 from '../assets/aptOne3.jpg'
+import pic4 from '../assets/aptOne4.jpg'
+import pic5 from '../assets/aptOne5.jpg'
+import pic6 from '../assets/aptOne6.jpg'
+
 
 
 
@@ -20,22 +27,22 @@ const Listing1 = (props) => {
             <div className="container">
               <div className="row">
                 <div className="col-12 col-md-6 col-xl-4">
-                  <img src="https://source.unsplash.com/random" alt="" />
+                  <img src={pic1} alt="" />
                 </div>
                 <div className="col-12 col-md-6 col-xl-4">
-                  <img src="https://source.unsplash.com/random" alt="" />
+                  <img src={pic2} alt="" />
                 </div>
                 <div className="col-12 col-md-6 col-xl-4">
-                  <img src="https://source.unsplash.com/random" alt="" />
+                  <img src={pic3} alt="" />
                 </div>
                 <div className="col-12 col-md-6 col-xl-4">
-                  <img src="https://source.unsplash.com/random" alt="" />
+                  <img src={pic4} alt="" />
                 </div>
                 <div className="col-12 col-md-6 col-xl-4">
-                  <img src="https://source.unsplash.com/random" alt="" />
+                  <img src={pic5} alt="" />
                 </div>
                 <div className="col-12 col-md-6 col-xl-4">
-                  <img src="https://source.unsplash.com/random" alt="" />
+                  <img src={pic6} alt="" />
                 </div>
               </div>
             </div>

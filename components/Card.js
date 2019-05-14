@@ -1,10 +1,6 @@
 
 class Card extends React.Component {
 
-  state = {
-
-  }
-
   render() {
   return (
     <div>
@@ -18,6 +14,10 @@ class Card extends React.Component {
         </div>
       </div>
       <style jsx>{`
+        img {
+          height: 200px;
+          width: 300px;
+        }
         .card-title {
           margin-top: 10px;
         }

@@ -93,25 +93,25 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./assets/mountain.jpg":
-/*!*****************************!*\
-  !*** ./assets/mountain.jpg ***!
-  \*****************************/
+/***/ "./assets/a9mins1.jpg":
+/*!****************************!*\
+  !*** ./assets/a9mins1.jpg ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/mountain-e8cf3a9977a59e31148a70e06ffbf375.jpg";
+module.exports = "/_next/static/images/a9mins1-f9fed13cd7eeb7da5e856bf7c9d90ae4.jpg";
 
 /***/ }),
 
-/***/ "./assets/spring.jpg":
-/*!***************************!*\
-  !*** ./assets/spring.jpg ***!
-  \***************************/
+/***/ "./assets/aptOne1.jpg":
+/*!****************************!*\
+  !*** ./assets/aptOne1.jpg ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/spring-6489076048a75a4f103b1aae13f63df7.jpg";
+module.exports = "/_next/static/images/aptOne1-4544b76a118c62893f225c31e7c6d79c.jpg";
 
 /***/ }),
 
@@ -139,15 +139,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
-
-
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
 
 
 
@@ -159,55 +155,126 @@ __webpack_require__.r(__webpack_exports__);
 var Card =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Card, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Card, _React$Component);
 
   function Card() {
-    var _getPrototypeOf2;
-
-    var _this;
-
     Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Card);
 
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Card)).call.apply(_getPrototypeOf2, [this].concat(args)));
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {});
-
-    return _this;
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Card).apply(this, arguments));
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Card, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "jsx-3278344778"
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "jsx-3278344778" + " " + "card border-primary mb-3"
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "jsx-3278344778" + " " + "card-header"
-      }, this.props.contacts), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "jsx-3278344778" + " " + "card-body"
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "jsx-3293400320"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "jsx-3293400320" + " " + "card border-primary mb-3"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "jsx-3293400320" + " " + "card-header"
+      }, this.props.contacts), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "jsx-3293400320" + " " + "card-body"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         src: this.props.photo,
         alt: "",
-        className: "jsx-3278344778" + " " + "img-fluid"
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
-        className: "jsx-3278344778" + " " + "card-title"
-      }, this.props.price), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
-        className: "jsx-3278344778" + " " + "card-text"
-      }, this.props.description))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        id: "3278344778"
-      }, ".card-title.jsx-3278344778{margin-top:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hZG1pbi9EZXNrdG9wL2NocnlzYWxpcy90d28tZGF5LW12cC9jb21wb25lbnRzL0NhcmQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUJrQixBQUcyQixnQkFDbEIiLCJmaWxlIjoiL1VzZXJzL2FkbWluL0Rlc2t0b3AvY2hyeXNhbGlzL3R3by1kYXktbXZwL2NvbXBvbmVudHMvQ2FyZC5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuY2xhc3MgQ2FyZCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG5cbiAgc3RhdGUgPSB7XG5cbiAgfVxuXG4gIHJlbmRlcigpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgIHsvKiBzdHlsZT17e21heFdpZHRoOiBcIjI1JVwifX0gKi99XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNhcmQgYm9yZGVyLXByaW1hcnkgbWItM1wiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNhcmQtaGVhZGVyXCI+e3RoaXMucHJvcHMuY29udGFjdHN9PC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyZC1ib2R5XCI+XG4gICAgICAgICAgPGltZyBzcmM9e3RoaXMucHJvcHMucGhvdG99IGFsdD1cIlwiIGNsYXNzTmFtZT1cImltZy1mbHVpZFwiLz5cbiAgICAgICAgICA8cCBjbGFzc05hbWU9XCJjYXJkLXRpdGxlXCI+e3RoaXMucHJvcHMucHJpY2V9PC9wPlxuICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImNhcmQtdGV4dFwiPnt0aGlzLnByb3BzLmRlc2NyaXB0aW9ufTwvcD5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgLmNhcmQtdGl0bGUge1xuICAgICAgICAgIG1hcmdpbi10b3A6IDEwcHg7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENhcmQ7Il19 */\n/*@ sourceURL=/Users/admin/Desktop/chrysalis/two-day-mvp/components/Card.js */"));
+        className: "jsx-3293400320" + " " + "img-fluid"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        className: "jsx-3293400320" + " " + "card-title"
+      }, this.props.price), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        className: "jsx-3293400320" + " " + "card-text"
+      }, this.props.description))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        id: "3293400320"
+      }, "img.jsx-3293400320{height:200px;width:300px;}.card-title.jsx-3293400320{margin-top:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hZG1pbi9EZXNrdG9wL2NocnlzYWxpcy90d28tZGF5LW12cC9jb21wb25lbnRzL0NhcmQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBZWtCLEFBR3dCLEFBSUcsYUFISixHQUlkLFNBSEEiLCJmaWxlIjoiL1VzZXJzL2FkbWluL0Rlc2t0b3AvY2hyeXNhbGlzL3R3by1kYXktbXZwL2NvbXBvbmVudHMvQ2FyZC5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuY2xhc3MgQ2FyZCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG5cbiAgcmVuZGVyKCkge1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgey8qIHN0eWxlPXt7bWF4V2lkdGg6IFwiMjUlXCJ9fSAqL31cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyZCBib3JkZXItcHJpbWFyeSBtYi0zXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyZC1oZWFkZXJcIj57dGhpcy5wcm9wcy5jb250YWN0c308L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjYXJkLWJvZHlcIj5cbiAgICAgICAgICA8aW1nIHNyYz17dGhpcy5wcm9wcy5waG90b30gYWx0PVwiXCIgY2xhc3NOYW1lPVwiaW1nLWZsdWlkXCIvPlxuICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImNhcmQtdGl0bGVcIj57dGhpcy5wcm9wcy5wcmljZX08L3A+XG4gICAgICAgICAgPHAgY2xhc3NOYW1lPVwiY2FyZC10ZXh0XCI+e3RoaXMucHJvcHMuZGVzY3JpcHRpb259PC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICBpbWcge1xuICAgICAgICAgIGhlaWdodDogMjAwcHg7XG4gICAgICAgICAgd2lkdGg6IDMwMHB4O1xuICAgICAgICB9XG4gICAgICAgIC5jYXJkLXRpdGxlIHtcbiAgICAgICAgICBtYXJnaW4tdG9wOiAxMHB4O1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gIClcbiAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBDYXJkOyJdfQ== */\n/*@ sourceURL=/Users/admin/Desktop/chrysalis/two-day-mvp/components/Card.js */"));
     }
   }]);
 
   return Card;
-}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Card);
+
+/***/ }),
+
+/***/ "./components/Form.js":
+/*!****************************!*\
+  !*** ./components/Form.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+
+
+
+var Form =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Form, _React$Component);
+
+  function Form() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Form);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Form).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Form, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "jsx-2653574035"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("form", {
+        className: "jsx-2653574035" + " " + "inquiry-form"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("legend", {
+        className: "jsx-2653574035"
+      }, "Inquiry Form"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "jsx-2653574035" + " " + "form-group"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("label", {
+        for: "exampleInputEmail1",
+        className: "jsx-2653574035"
+      }, "Email address"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("input", {
+        type: "email",
+        id: "exampleInputEmail1",
+        "aria-describedby": "emailHelp",
+        placeholder: "Enter email",
+        className: "jsx-2653574035" + " " + "form-control"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("small", {
+        id: "emailHelp",
+        className: "jsx-2653574035" + " " + "form-text text-muted"
+      }, "We'll never share your email with anyone else.")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "jsx-2653574035" + " " + "form-group"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("label", {
+        for: "exampleTextarea",
+        className: "jsx-2653574035"
+      }, "Inquiry Details ( availability, etc.)"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("textarea", {
+        className: "jsx-2653574035" + " " + "form-control"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
+        type: "submit",
+        className: "jsx-2653574035" + " " + "btn btn-primary"
+      }, "Submit")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        id: "2653574035"
+      }, ".inquiry-form.jsx-2653574035{margin:50px 0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hZG1pbi9EZXNrdG9wL2NocnlzYWxpcy90d28tZGF5LW12cC9jb21wb25lbnRzL0Zvcm0uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBdUJrQixBQUd3QixjQUNoQiIsImZpbGUiOiIvVXNlcnMvYWRtaW4vRGVza3RvcC9jaHJ5c2FsaXMvdHdvLWRheS1tdnAvY29tcG9uZW50cy9Gb3JtLmpzIiwic291cmNlc0NvbnRlbnQiOlsiXG5jbGFzcyBGb3JtIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblxuXG4gIHJlbmRlcigpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPGZvcm0gY2xhc3NOYW1lPVwiaW5xdWlyeS1mb3JtXCI+XG4gICAgXG4gICAgICAgIDxsZWdlbmQ+SW5xdWlyeSBGb3JtPC9sZWdlbmQ+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9ybS1ncm91cFwiPlxuICAgICAgICAgIDxsYWJlbCBmb3I9XCJleGFtcGxlSW5wdXRFbWFpbDFcIj5FbWFpbCBhZGRyZXNzPC9sYWJlbD5cbiAgICAgICAgICA8aW5wdXQgdHlwZT1cImVtYWlsXCIgY2xhc3NOYW1lPVwiZm9ybS1jb250cm9sXCIgaWQ9XCJleGFtcGxlSW5wdXRFbWFpbDFcIiBhcmlhLWRlc2NyaWJlZGJ5PVwiZW1haWxIZWxwXCIgcGxhY2Vob2xkZXI9XCJFbnRlciBlbWFpbFwiLz5cbiAgICAgICAgICA8c21hbGwgaWQ9XCJlbWFpbEhlbHBcIiBjbGFzc05hbWU9XCJmb3JtLXRleHQgdGV4dC1tdXRlZFwiPldlJ2xsIG5ldmVyIHNoYXJlIHlvdXIgZW1haWwgd2l0aCBhbnlvbmUgZWxzZS48L3NtYWxsPlxuICAgICAgICA8L2Rpdj5cbiAgXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9ybS1ncm91cFwiPlxuICAgICAgICAgIDxsYWJlbCBmb3I9XCJleGFtcGxlVGV4dGFyZWFcIj5JbnF1aXJ5IERldGFpbHMgKCBhdmFpbGFiaWxpdHksIGV0Yy4pPC9sYWJlbD5cbiAgICAgICAgICA8dGV4dGFyZWEgY2xhc3NOYW1lPVwiZm9ybS1jb250cm9sXCIgLz5cbiAgICAgICAgPC9kaXY+ICAgXG4gICAgICAgIDxidXR0b24gdHlwZT1cInN1Ym1pdFwiIGNsYXNzTmFtZT1cImJ0biBidG4tcHJpbWFyeVwiPlN1Ym1pdDwvYnV0dG9uPlxuICAgICAgPC9mb3JtPlxuXG4gICAgICA8c3R5bGUganN4PntgICAgXG4gICAgICAgLmlucXVpcnktZm9ybSB7XG4gICAgICAgICBtYXJnaW46IDUwcHggMDtcbiAgICAgICB9XG4gICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IEZvcm07Il19 */\n/*@ sourceURL=/Users/admin/Desktop/chrysalis/two-day-mvp/components/Form.js */"));
+    }
+  }]);
+
+  return Form;
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Form);
 
 /***/ }),
 
@@ -641,36 +708,6 @@ function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
   return Constructor;
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
-
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
 }
 
 /***/ }),
@@ -2004,15 +2041,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Card */ "./components/Card.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _data_fakeData__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../data/fakeData */ "./data/fakeData.js");
-/* harmony import */ var _assets_spring_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/spring.jpg */ "./assets/spring.jpg");
-/* harmony import */ var _assets_spring_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_spring_jpg__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _assets_mountain_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/mountain.jpg */ "./assets/mountain.jpg");
-/* harmony import */ var _assets_mountain_jpg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_mountain_jpg__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _assets_xmas_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/xmas.jpg */ "./assets/xmas.jpg");
-/* harmony import */ var _assets_xmas_jpg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_xmas_jpg__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _components_Form__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Form */ "./components/Form.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _data_fakeData__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../data/fakeData */ "./data/fakeData.js");
+/* harmony import */ var _assets_a9mins1_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/a9mins1.jpg */ "./assets/a9mins1.jpg");
+/* harmony import */ var _assets_a9mins1_jpg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_a9mins1_jpg__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _assets_aptOne1_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/aptOne1.jpg */ "./assets/aptOne1.jpg");
+/* harmony import */ var _assets_aptOne1_jpg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_aptOne1_jpg__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _assets_xmas_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/xmas.jpg */ "./assets/xmas.jpg");
+/* harmony import */ var _assets_xmas_jpg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_xmas_jpg__WEBPACK_IMPORTED_MODULE_12__);
+
 
 
 
@@ -2028,17 +2067,19 @@ __webpack_require__.r(__webpack_exports__);
 
 var Index = function Index(props) {
   return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], null, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "jsx-4128874573" + " " + "jumbotron bg-dark"
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h1", {
-    className: "jsx-4128874573"
-  }, "Hello and Welcome!"), "BTC/USD: ", props.data.time.updated), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "jsx-4128874573" + " " + "row"
+    className: "jsx-1998155452" + " " + "jumbotron bg-dark"
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h3", {
+    className: "jsx-1998155452"
+  }, "Find affordable monthly rentals in central Tokyo!"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h4", {
+    className: "jsx-1998155452"
+  }, "All apartments fully-furnished and bills included.")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-1998155452" + " " + "row"
   }, props.cards.map(function (card, i) {
     return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
       href: i,
       key: i
     }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
-      className: "jsx-4128874573" + " " + "col card-link"
+      className: "jsx-1998155452" + " " + "col card-link"
     }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_5__["default"], {
       contacts: card.name,
       price: card.price,
@@ -2046,14 +2087,14 @@ var Index = function Index(props) {
       photo: card.photo
     })));
   })), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "jsx-4128874573" + " " + "container text-center"
+    className: "jsx-1998155452" + " " + "info"
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h4", {
-    className: "jsx-4128874573"
+    className: "jsx-1998155452"
   }, "Monthly Rentals in Japan"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("p", {
-    className: "jsx-4128874573"
-  }, "In Japan, you can rent an apartment for 30 days or more without a license. However Airbnb and other booking sites have made it policy not to accept any listings unless they have a short-term booking license. Hence, I have created this site to hopefully allow medium-term visitors to Tokyo to find affordable monthly accomodation.")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    id: "4128874573"
-  }, ".card-link.jsx-4128874573{-webkit-text-decoration:none;text-decoration:none;color:black;}.card-link.jsx-4128874573:hover{cursor:pointer;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hZG1pbi9EZXNrdG9wL2NocnlzYWxpcy90d28tZGF5LW12cC9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpQ3NCLEFBR2tDLEFBSU4sZUFDakIsbUNBSmMsWUFDZCIsImZpbGUiOiIvVXNlcnMvYWRtaW4vRGVza3RvcC9jaHJ5c2FsaXMvdHdvLWRheS1tdnAvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTGF5b3V0J1xuaW1wb3J0IENhcmQgZnJvbSAnLi4vY29tcG9uZW50cy9DYXJkJ1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuXG5pbXBvcnQgRmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJ1xuaW1wb3J0ICBkYiAgZnJvbSAnLi4vZGF0YS9mYWtlRGF0YSc7XG5pbXBvcnQgc3ByaW5nIGZyb20gJy4uL2Fzc2V0cy9zcHJpbmcuanBnJ1xuaW1wb3J0IG1vdW50YWluIGZyb20gJy4uL2Fzc2V0cy9tb3VudGFpbi5qcGcnXG5pbXBvcnQgeG1hcyBmcm9tICcuLi9hc3NldHMveG1hcy5qcGcnXG5cblxuXG5cbmNvbnN0IEluZGV4ID0gKHByb3BzKSA9PiB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxMYXlvdXQ+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJqdW1ib3Ryb24gYmctZGFya1wiPlxuICAgICAgICAgICAgPGgxPkhlbGxvIGFuZCBXZWxjb21lITwvaDE+XG4gICAgICAgICAgICBCVEMvVVNEOiB7IHByb3BzLmRhdGEudGltZS51cGRhdGVkfVxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgICAgICB7cHJvcHMuY2FyZHMubWFwKChjYXJkLCBpKSA9PiB7XG4gICAgICAgICAgICAgIHJldHVybiA8TGluayBocmVmPXtpfSBrZXk9e2l9PjxhIGNsYXNzTmFtZT1cImNvbCBjYXJkLWxpbmtcIj5cbiAgICAgICAgICAgICAgICA8Q2FyZCBjb250YWN0cz17Y2FyZC5uYW1lfSBwcmljZT17Y2FyZC5wcmljZX0gZGVzY3JpcHRpb249e2NhcmQuZGVzY3JpcHRpb259IHBob3RvPXtjYXJkLnBob3RvfSAvPlxuICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgIDwvTGluaz5cbiAgICAgICAgICAgIH0pfVxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXIgdGV4dC1jZW50ZXJcIj5cbiAgICAgICAgICAgIDxoND5Nb250aGx5IFJlbnRhbHMgaW4gSmFwYW48L2g0PlxuICAgICAgICAgICAgPHA+SW4gSmFwYW4sIHlvdSBjYW4gcmVudCBhbiBhcGFydG1lbnQgZm9yIDMwIGRheXMgb3IgbW9yZSB3aXRob3V0IGEgbGljZW5zZS4gSG93ZXZlciBBaXJibmIgYW5kIG90aGVyIGJvb2tpbmcgc2l0ZXMgaGF2ZSBtYWRlIGl0IHBvbGljeSBub3QgdG8gYWNjZXB0IGFueSBsaXN0aW5ncyB1bmxlc3MgdGhleSBoYXZlIGEgc2hvcnQtdGVybSBib29raW5nIGxpY2Vuc2UuIEhlbmNlLCBJIGhhdmUgY3JlYXRlZCB0aGlzIHNpdGUgdG8gaG9wZWZ1bGx5IGFsbG93IG1lZGl1bS10ZXJtIHZpc2l0b3JzIHRvIFRva3lvIHRvIGZpbmQgYWZmb3JkYWJsZSBtb250aGx5IGFjY29tb2RhdGlvbi48L3A+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgIC5jYXJkLWxpbmt7XG4gICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgICAgICBjb2xvcjogYmxhY2s7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5jYXJkLWxpbms6aG92ZXJ7XG4gICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7IFxuICAgICAgICAgIH1cbiAgICAgICAgICBgfTwvc3R5bGU+XG4gICAgICA8L0xheW91dD5cbiAgICApXG4gICAgXG4gICBcbn1cblxuSW5kZXguZ2V0SW5pdGlhbFByb3BzID0gYXN5bmMgZnVuY3Rpb24oKSB7XG4gIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKFwiaHR0cHM6Ly9hcGkuY29pbmRlc2suY29tL3YxL2JwaS9jdXJyZW50cHJpY2UuanNvblwiKVxuICBjb25zdCBjb2luRGF0YSA9IGF3YWl0IHJlcy5qc29uKClcblxuICByZXR1cm4ge1xuICAgIGRhdGE6IGNvaW5EYXRhLFxuICAgIGNhcmRzOiBbXG4gICAgICB7XG4gICAgICBuYW1lOiBkYi5kYXRhWzBdLm5hbWUsXG4gICAgICBkZXNjcmlwdGlvbjogZGIuZGF0YVswXS5kZXNjcmlwdGlvbixcbiAgICAgIHByaWNlOiBkYi5kYXRhWzBdLnByaWNlLFxuICAgICAgcGhvdG86IHNwcmluZ1xuICAgIH0sXG4gICAgICB7XG4gICAgICBuYW1lOiBkYi5kYXRhWzFdLm5hbWUsXG4gICAgICBkZXNjcmlwdGlvbjogZGIuZGF0YVsxXS5kZXNjcmlwdGlvbixcbiAgICAgIHByaWNlOiBkYi5kYXRhWzBdLnByaWNlLFxuICAgICAgcGhvdG86IG1vdW50YWluXG4gICAgfSxcbiAgICAgIHtcbiAgICAgIG5hbWU6IGRiLmRhdGFbMl0ubmFtZSxcbiAgICAgIGRlc2NyaXB0aW9uOiBkYi5kYXRhWzJdLmRlc2NyaXB0aW9uLFxuICAgICAgcHJpY2U6IGRiLmRhdGFbMF0ucHJpY2UsXG4gICAgICBwaG90bzogeG1hc1xuICAgIH0gICAgXG4gIF1cbiAgfVxufVxuICBcbmV4cG9ydCBkZWZhdWx0IEluZGV4OyJdfQ== */\n/*@ sourceURL=/Users/admin/Desktop/chrysalis/two-day-mvp/pages/index.js */"));
+    className: "jsx-1998155452"
+  }, "In Japan, you can rent an apartment for 30 days or more without a license. However Airbnb and other booking sites have made it policy not to accept any listings unless they have a short-term booking license. Hence, I have created this site to hopefully allow medium-term visitors to Tokyo to find affordable monthly accomodation.")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_Form__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    id: "1998155452"
+  }, ".card-link.jsx-1998155452{-webkit-text-decoration:none;text-decoration:none;color:black;}.card-link.jsx-1998155452:hover{cursor:pointer;}.info.jsx-1998155452{margin:30px 0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hZG1pbi9EZXNrdG9wL2NocnlzYWxpcy90d28tZGF5LW12cC9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF1Q3NCLEFBR2tDLEFBSU4sQUFHRCxjQUNoQixDQUhBLG1DQUpjLFlBQ2QiLCJmaWxlIjoiL1VzZXJzL2FkbWluL0Rlc2t0b3AvY2hyeXNhbGlzL3R3by1kYXktbXZwL3BhZ2VzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL0xheW91dCdcbmltcG9ydCBDYXJkIGZyb20gJy4uL2NvbXBvbmVudHMvQ2FyZCdcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcbmltcG9ydCBGb3JtIGZyb20gJy4uL2NvbXBvbmVudHMvRm9ybSdcblxuXG5pbXBvcnQgRmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJ1xuaW1wb3J0ICBkYiAgZnJvbSAnLi4vZGF0YS9mYWtlRGF0YSc7XG5pbXBvcnQgYTltaW5zMSBmcm9tICcuLi9hc3NldHMvYTltaW5zMS5qcGcnXG5pbXBvcnQgcGljMSBmcm9tICcuLi9hc3NldHMvYXB0T25lMS5qcGcnXG5pbXBvcnQgeG1hcyBmcm9tICcuLi9hc3NldHMveG1hcy5qcGcnXG5cblxuXG5cbmNvbnN0IEluZGV4ID0gKHByb3BzKSA9PiB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxMYXlvdXQ+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJqdW1ib3Ryb24gYmctZGFya1wiPlxuICAgICAgICAgICAgPGgzPkZpbmQgYWZmb3JkYWJsZSBtb250aGx5IHJlbnRhbHMgaW4gY2VudHJhbCBUb2t5byE8L2gzPlxuICAgICAgICAgICAgPGg0PkFsbCBhcGFydG1lbnRzIGZ1bGx5LWZ1cm5pc2hlZCBhbmQgYmlsbHMgaW5jbHVkZWQuPC9oND5cbiAgICAgICAgICAgIHsvKiBCVEMvVVNEOiB7IHByb3BzLmRhdGEudGltZS51cGRhdGVkfSAqL31cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAge3Byb3BzLmNhcmRzLm1hcCgoY2FyZCwgaSkgPT4ge1xuICAgICAgICAgICAgICByZXR1cm4gPExpbmsgaHJlZj17aX0ga2V5PXtpfT48YSBjbGFzc05hbWU9XCJjb2wgY2FyZC1saW5rXCI+XG4gICAgICAgICAgICAgICAgPENhcmQgY29udGFjdHM9e2NhcmQubmFtZX0gcHJpY2U9e2NhcmQucHJpY2V9IGRlc2NyaXB0aW9uPXtjYXJkLmRlc2NyaXB0aW9ufSBwaG90bz17Y2FyZC5waG90b30gLz5cbiAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICA8L0xpbms+XG4gICAgICAgICAgICB9KX1cbiAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaW5mb1wiPlxuICAgICAgICAgICAgPGg0Pk1vbnRobHkgUmVudGFscyBpbiBKYXBhbjwvaDQ+XG4gICAgICAgICAgICA8cD5JbiBKYXBhbiwgeW91IGNhbiByZW50IGFuIGFwYXJ0bWVudCBmb3IgMzAgZGF5cyBvciBtb3JlIHdpdGhvdXQgYSBsaWNlbnNlLiBIb3dldmVyIEFpcmJuYiBhbmQgb3RoZXIgYm9va2luZyBzaXRlcyBoYXZlIG1hZGUgaXQgcG9saWN5IG5vdCB0byBhY2NlcHQgYW55IGxpc3RpbmdzIHVubGVzcyB0aGV5IGhhdmUgYSBzaG9ydC10ZXJtIGJvb2tpbmcgbGljZW5zZS4gSGVuY2UsIEkgaGF2ZSBjcmVhdGVkIHRoaXMgc2l0ZSB0byBob3BlZnVsbHkgYWxsb3cgbWVkaXVtLXRlcm0gdmlzaXRvcnMgdG8gVG9reW8gdG8gZmluZCBhZmZvcmRhYmxlIG1vbnRobHkgYWNjb21vZGF0aW9uLjwvcD5cbiAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgIDxGb3JtPjwvRm9ybT5cblxuICAgICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAuY2FyZC1saW5re1xuICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICAgICAgY29sb3I6IGJsYWNrO1xuICAgICAgICAgIH1cbiAgICAgICAgICAuY2FyZC1saW5rOmhvdmVye1xuICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyOyBcbiAgICAgICAgICB9XG4gICAgICAgICAgLmluZm97XG4gICAgICAgICAgICBtYXJnaW46IDMwcHggMDtcbiAgICAgICAgICB9XG4gICAgICAgICAgYH08L3N0eWxlPlxuICAgICAgPC9MYXlvdXQ+XG4gICAgKVxuICAgIFxuICAgXG59XG5cbkluZGV4LmdldEluaXRpYWxQcm9wcyA9IGFzeW5jIGZ1bmN0aW9uKCkge1xuICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChcImh0dHBzOi8vYXBpLmNvaW5kZXNrLmNvbS92MS9icGkvY3VycmVudHByaWNlLmpzb25cIilcbiAgY29uc3QgY29pbkRhdGEgPSBhd2FpdCByZXMuanNvbigpXG5cbiAgcmV0dXJuIHtcbiAgICBkYXRhOiBjb2luRGF0YSxcbiAgICBjYXJkczogW1xuICAgICAge1xuICAgICAgbmFtZTogZGIuZGF0YVswXS5uYW1lLFxuICAgICAgZGVzY3JpcHRpb246IGRiLmRhdGFbMF0uZGVzY3JpcHRpb24sXG4gICAgICBwcmljZTogZGIuZGF0YVswXS5wcmljZSxcbiAgICAgIHBob3RvOiBhOW1pbnMxXG4gICAgfSxcbiAgICAgIHtcbiAgICAgIG5hbWU6IGRiLmRhdGFbMV0ubmFtZSxcbiAgICAgIGRlc2NyaXB0aW9uOiBkYi5kYXRhWzFdLmRlc2NyaXB0aW9uLFxuICAgICAgcHJpY2U6IGRiLmRhdGFbMV0ucHJpY2UsXG4gICAgICBwaG90bzogcGljMVxuICAgIH0sXG4gICAgICB7XG4gICAgICBuYW1lOiBkYi5kYXRhWzJdLm5hbWUsXG4gICAgICBkZXNjcmlwdGlvbjogZGIuZGF0YVsyXS5kZXNjcmlwdGlvbixcbiAgICAgIHByaWNlOiBkYi5kYXRhWzJdLnByaWNlLFxuICAgICAgcGhvdG86IHhtYXNcbiAgICB9ICAgIFxuICBdXG4gIH1cbn1cbiAgXG5leHBvcnQgZGVmYXVsdCBJbmRleDsiXX0= */\n/*@ sourceURL=/Users/admin/Desktop/chrysalis/two-day-mvp/pages/index.js */"));
 };
 
 Index.getInitialProps =
@@ -2079,20 +2120,20 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
           return _context.abrupt("return", {
             data: coinData,
             cards: [{
-              name: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[0].name,
-              description: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[0].description,
-              price: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[0].price,
-              photo: _assets_spring_jpg__WEBPACK_IMPORTED_MODULE_9___default.a
+              name: _data_fakeData__WEBPACK_IMPORTED_MODULE_9__["default"].data[0].name,
+              description: _data_fakeData__WEBPACK_IMPORTED_MODULE_9__["default"].data[0].description,
+              price: _data_fakeData__WEBPACK_IMPORTED_MODULE_9__["default"].data[0].price,
+              photo: _assets_a9mins1_jpg__WEBPACK_IMPORTED_MODULE_13___default.a
             }, {
-              name: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[1].name,
-              description: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[1].description,
-              price: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[0].price,
-              photo: _assets_mountain_jpg__WEBPACK_IMPORTED_MODULE_10___default.a
+              name: _data_fakeData__WEBPACK_IMPORTED_MODULE_9__["default"].data[1].name,
+              description: _data_fakeData__WEBPACK_IMPORTED_MODULE_9__["default"].data[1].description,
+              price: _data_fakeData__WEBPACK_IMPORTED_MODULE_9__["default"].data[1].price,
+              photo: _assets_aptOne1_jpg__WEBPACK_IMPORTED_MODULE_11___default.a
             }, {
-              name: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[2].name,
-              description: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[2].description,
-              price: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[0].price,
-              photo: _assets_xmas_jpg__WEBPACK_IMPORTED_MODULE_11___default.a
+              name: _data_fakeData__WEBPACK_IMPORTED_MODULE_9__["default"].data[2].name,
+              description: _data_fakeData__WEBPACK_IMPORTED_MODULE_9__["default"].data[2].description,
+              price: _data_fakeData__WEBPACK_IMPORTED_MODULE_9__["default"].data[2].price,
+              photo: _assets_xmas_jpg__WEBPACK_IMPORTED_MODULE_12___default.a
             }]
           });
 
