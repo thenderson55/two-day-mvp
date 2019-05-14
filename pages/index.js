@@ -21,7 +21,7 @@ const Index = (props) => {
           <div className="row">
             {props.cards.map((card, i) => {
               return <Link href={i} key={i}><a className="col card-link">
-                <Card contacts={card.name} description={card.description} photo={card.photo} />
+                <Card contacts={card.name} price={card.price} description={card.description} photo={card.photo} />
               </a>
               </Link>
             })}
@@ -56,16 +56,19 @@ Index.getInitialProps = async function() {
       {
       name: db.data[0].name,
       description: db.data[0].description,
+      price: db.data[0].price,
       photo: spring
     },
       {
       name: db.data[1].name,
       description: db.data[1].description,
+      price: db.data[0].price,
       photo: mountain
     },
       {
       name: db.data[2].name,
       description: db.data[2].description,
+      price: db.data[0].price,
       photo: xmas
     }    
   ]

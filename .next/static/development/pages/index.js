@@ -49,8 +49,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+
 
 
 
@@ -86,26 +89,30 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Card, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "card border-primary mb-3"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "card-header"
-      }, this.props.contacts), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "card-body"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "jsx-3278344778"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "jsx-3278344778" + " " + "card border-primary mb-3"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "jsx-3278344778" + " " + "card-header"
+      }, this.props.contacts), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "jsx-3278344778" + " " + "card-body"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
         src: this.props.photo,
         alt: "",
-        className: "img-fluid"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h4", {
-        className: "card-title"
-      }, "Primary card title"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
-        className: "card-text"
-      }, this.props.description))));
+        className: "jsx-3278344778" + " " + "img-fluid"
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
+        className: "jsx-3278344778" + " " + "card-title"
+      }, this.props.price), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
+        className: "jsx-3278344778" + " " + "card-text"
+      }, this.props.description))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        id: "3278344778"
+      }, ".card-title.jsx-3278344778{margin-top:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hZG1pbi9EZXNrdG9wL2NocnlzYWxpcy90d28tZGF5LW12cC9jb21wb25lbnRzL0NhcmQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUJrQixBQUcyQixnQkFDbEIiLCJmaWxlIjoiL1VzZXJzL2FkbWluL0Rlc2t0b3AvY2hyeXNhbGlzL3R3by1kYXktbXZwL2NvbXBvbmVudHMvQ2FyZC5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuY2xhc3MgQ2FyZCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG5cbiAgc3RhdGUgPSB7XG5cbiAgfVxuXG4gIHJlbmRlcigpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgIHsvKiBzdHlsZT17e21heFdpZHRoOiBcIjI1JVwifX0gKi99XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNhcmQgYm9yZGVyLXByaW1hcnkgbWItM1wiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNhcmQtaGVhZGVyXCI+e3RoaXMucHJvcHMuY29udGFjdHN9PC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyZC1ib2R5XCI+XG4gICAgICAgICAgPGltZyBzcmM9e3RoaXMucHJvcHMucGhvdG99IGFsdD1cIlwiIGNsYXNzTmFtZT1cImltZy1mbHVpZFwiLz5cbiAgICAgICAgICA8cCBjbGFzc05hbWU9XCJjYXJkLXRpdGxlXCI+e3RoaXMucHJvcHMucHJpY2V9PC9wPlxuICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImNhcmQtdGV4dFwiPnt0aGlzLnByb3BzLmRlc2NyaXB0aW9ufTwvcD5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgLmNhcmQtdGl0bGUge1xuICAgICAgICAgIG1hcmdpbi10b3A6IDEwcHg7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENhcmQ7Il19 */\n/*@ sourceURL=/Users/admin/Desktop/chrysalis/two-day-mvp/components/Card.js */"));
     }
   }]);
 
   return Card;
-}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Card);
 
@@ -218,25 +225,13 @@ var Navbar = function Navbar() {
     href: "/about"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link"
-  }, "About"))))))) // <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-  //   <Link href="/">
-  //   <a className="navbar-brand">Tokyo Monthly</a></Link>
-  //   {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-  //     <span className="navbar-toggler-icon"></span>
-  //   </button> */}
-  //   <div className="collapse navbar-collapse" id="navbarColor01">
-  //     <ul className="navbar-nav mr-auto">
-  //       <li className="nav-item active">
-  //         <a className="nav-link">YOLO <span className="sr-only">(current)</span></a>
-  //       </li> 
-  //       <li className="nav-item">
-  //         <Link href="/about">
-  //         <a className="nav-link">About</a></Link>
-  //       </li>
-  //     </ul>
-  //   </div>
-  // </nav>
-  ;
+  }, "About"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/contact"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "nav-link"
+  }, "Contact")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
@@ -256,18 +251,21 @@ var db = {
   "data": [{
     "name": "Comfortable in Shinjuku",
     "description": "Close to all the excitement of Kabukicho!",
+    "description-long": "",
     "image": "../assets/spring.jpg",
     "price": "130,000 JPY per month",
     "amenities": "Double bed, Small Kitchen, TV, Sofa"
   }, {
     "name": "9 mins to Shinjuku",
     "description": "Next to the amazing Shinjku Gyoen park!",
+    "description-long": "",
     "image": "../assets/spring.jpg",
     "price": "140,000 JPY per month",
     "amenities": "Double bed, Small Kitchen, TV, Sofa, Wshing Machine"
   }, {
     "name": "A tent in 2-choume park",
     "description": "Enjoy the sun on your face in the morning!",
+    "description-long": "",
     "image": "../assets/spring.jpg",
     "price": "9,000 JPY",
     "amenities": "Toilet, Exercise Area, Natural Light"
@@ -11760,6 +11758,7 @@ var Index = function Index(props) {
       className: "jsx-4128874573" + " " + "col card-link"
     }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_5__["default"], {
       contacts: card.name,
+      price: card.price,
       description: card.description,
       photo: card.photo
     })));
@@ -11771,7 +11770,7 @@ var Index = function Index(props) {
     className: "jsx-4128874573"
   }, "In Japan, you can rent an apartment for 30 days or more without a license. However Airbnb and other booking sites have made it policy not to accept any listings unless they have a short-term booking license. Hence, I have created this site to hopefully allow medium-term visitors to Tokyo to find affordable monthly accomodation.")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_2___default.a, {
     id: "4128874573"
-  }, ".card-link.jsx-4128874573{-webkit-text-decoration:none;text-decoration:none;color:black;}.card-link.jsx-4128874573:hover{cursor:pointer;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hZG1pbi9EZXNrdG9wL2NocnlzYWxpcy90d28tZGF5LW12cC9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpQ3NCLEFBR2tDLEFBSU4sZUFDakIsbUNBSmMsWUFDZCIsImZpbGUiOiIvVXNlcnMvYWRtaW4vRGVza3RvcC9jaHJ5c2FsaXMvdHdvLWRheS1tdnAvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTGF5b3V0J1xuaW1wb3J0IENhcmQgZnJvbSAnLi4vY29tcG9uZW50cy9DYXJkJ1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuXG5pbXBvcnQgRmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJ1xuaW1wb3J0ICBkYiAgZnJvbSAnLi4vZGF0YS9mYWtlRGF0YSc7XG5pbXBvcnQgc3ByaW5nIGZyb20gJy4uL2Fzc2V0cy9zcHJpbmcuanBnJ1xuaW1wb3J0IG1vdW50YWluIGZyb20gJy4uL2Fzc2V0cy9tb3VudGFpbi5qcGcnXG5pbXBvcnQgeG1hcyBmcm9tICcuLi9hc3NldHMveG1hcy5qcGcnXG5cblxuXG5cbmNvbnN0IEluZGV4ID0gKHByb3BzKSA9PiB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxMYXlvdXQ+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJqdW1ib3Ryb24gYmctZGFya1wiPlxuICAgICAgICAgICAgPGgxPkhlbGxvIGFuZCBXZWxjb21lITwvaDE+XG4gICAgICAgICAgICBCVEMvVVNEOiB7IHByb3BzLmRhdGEudGltZS51cGRhdGVkfVxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgICAgICB7cHJvcHMuY2FyZHMubWFwKChjYXJkLCBpKSA9PiB7XG4gICAgICAgICAgICAgIHJldHVybiA8TGluayBocmVmPXtpfSBrZXk9e2l9PjxhIGNsYXNzTmFtZT1cImNvbCBjYXJkLWxpbmtcIj5cbiAgICAgICAgICAgICAgICA8Q2FyZCBjb250YWN0cz17Y2FyZC5uYW1lfSBkZXNjcmlwdGlvbj17Y2FyZC5kZXNjcmlwdGlvbn0gcGhvdG89e2NhcmQucGhvdG99IC8+XG4gICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgICAgPC9MaW5rPlxuICAgICAgICAgICAgfSl9XG4gICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lciB0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgPGg0Pk1vbnRobHkgUmVudGFscyBpbiBKYXBhbjwvaDQ+XG4gICAgICAgICAgICA8cD5JbiBKYXBhbiwgeW91IGNhbiByZW50IGFuIGFwYXJ0bWVudCBmb3IgMzAgZGF5cyBvciBtb3JlIHdpdGhvdXQgYSBsaWNlbnNlLiBIb3dldmVyIEFpcmJuYiBhbmQgb3RoZXIgYm9va2luZyBzaXRlcyBoYXZlIG1hZGUgaXQgcG9saWN5IG5vdCB0byBhY2NlcHQgYW55IGxpc3RpbmdzIHVubGVzcyB0aGV5IGhhdmUgYSBzaG9ydC10ZXJtIGJvb2tpbmcgbGljZW5zZS4gSGVuY2UsIEkgaGF2ZSBjcmVhdGVkIHRoaXMgc2l0ZSB0byBob3BlZnVsbHkgYWxsb3cgbWVkaXVtLXRlcm0gdmlzaXRvcnMgdG8gVG9reW8gdG8gZmluZCBhZmZvcmRhYmxlIG1vbnRobHkgYWNjb21vZGF0aW9uLjwvcD5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgLmNhcmQtbGlua3tcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgICAgIGNvbG9yOiBibGFjaztcbiAgICAgICAgICB9XG4gICAgICAgICAgLmNhcmQtbGluazpob3ZlcntcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjsgXG4gICAgICAgICAgfVxuICAgICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvTGF5b3V0PlxuICAgIClcbiAgICBcbiAgIFxufVxuXG5JbmRleC5nZXRJbml0aWFsUHJvcHMgPSBhc3luYyBmdW5jdGlvbigpIHtcbiAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goXCJodHRwczovL2FwaS5jb2luZGVzay5jb20vdjEvYnBpL2N1cnJlbnRwcmljZS5qc29uXCIpXG4gIGNvbnN0IGNvaW5EYXRhID0gYXdhaXQgcmVzLmpzb24oKVxuXG4gIHJldHVybiB7XG4gICAgZGF0YTogY29pbkRhdGEsXG4gICAgY2FyZHM6IFtcbiAgICAgIHtcbiAgICAgIG5hbWU6IGRiLmRhdGFbMF0ubmFtZSxcbiAgICAgIGRlc2NyaXB0aW9uOiBkYi5kYXRhWzBdLmRlc2NyaXB0aW9uLFxuICAgICAgcGhvdG86IHNwcmluZ1xuICAgIH0sXG4gICAgICB7XG4gICAgICBuYW1lOiBkYi5kYXRhWzFdLm5hbWUsXG4gICAgICBkZXNjcmlwdGlvbjogZGIuZGF0YVsxXS5kZXNjcmlwdGlvbixcbiAgICAgIHBob3RvOiBtb3VudGFpblxuICAgIH0sXG4gICAgICB7XG4gICAgICBuYW1lOiBkYi5kYXRhWzJdLm5hbWUsXG4gICAgICBkZXNjcmlwdGlvbjogZGIuZGF0YVsyXS5kZXNjcmlwdGlvbixcbiAgICAgIHBob3RvOiB4bWFzXG4gICAgfSAgICBcbiAgXVxuICB9XG59XG4gIFxuZXhwb3J0IGRlZmF1bHQgSW5kZXg7Il19 */\n/*@ sourceURL=/Users/admin/Desktop/chrysalis/two-day-mvp/pages/index.js */"));
+  }, ".card-link.jsx-4128874573{-webkit-text-decoration:none;text-decoration:none;color:black;}.card-link.jsx-4128874573:hover{cursor:pointer;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hZG1pbi9EZXNrdG9wL2NocnlzYWxpcy90d28tZGF5LW12cC9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpQ3NCLEFBR2tDLEFBSU4sZUFDakIsbUNBSmMsWUFDZCIsImZpbGUiOiIvVXNlcnMvYWRtaW4vRGVza3RvcC9jaHJ5c2FsaXMvdHdvLWRheS1tdnAvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTGF5b3V0J1xuaW1wb3J0IENhcmQgZnJvbSAnLi4vY29tcG9uZW50cy9DYXJkJ1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuXG5pbXBvcnQgRmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJ1xuaW1wb3J0ICBkYiAgZnJvbSAnLi4vZGF0YS9mYWtlRGF0YSc7XG5pbXBvcnQgc3ByaW5nIGZyb20gJy4uL2Fzc2V0cy9zcHJpbmcuanBnJ1xuaW1wb3J0IG1vdW50YWluIGZyb20gJy4uL2Fzc2V0cy9tb3VudGFpbi5qcGcnXG5pbXBvcnQgeG1hcyBmcm9tICcuLi9hc3NldHMveG1hcy5qcGcnXG5cblxuXG5cbmNvbnN0IEluZGV4ID0gKHByb3BzKSA9PiB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxMYXlvdXQ+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJqdW1ib3Ryb24gYmctZGFya1wiPlxuICAgICAgICAgICAgPGgxPkhlbGxvIGFuZCBXZWxjb21lITwvaDE+XG4gICAgICAgICAgICBCVEMvVVNEOiB7IHByb3BzLmRhdGEudGltZS51cGRhdGVkfVxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgICAgICB7cHJvcHMuY2FyZHMubWFwKChjYXJkLCBpKSA9PiB7XG4gICAgICAgICAgICAgIHJldHVybiA8TGluayBocmVmPXtpfSBrZXk9e2l9PjxhIGNsYXNzTmFtZT1cImNvbCBjYXJkLWxpbmtcIj5cbiAgICAgICAgICAgICAgICA8Q2FyZCBjb250YWN0cz17Y2FyZC5uYW1lfSBwcmljZT17Y2FyZC5wcmljZX0gZGVzY3JpcHRpb249e2NhcmQuZGVzY3JpcHRpb259IHBob3RvPXtjYXJkLnBob3RvfSAvPlxuICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgIDwvTGluaz5cbiAgICAgICAgICAgIH0pfVxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXIgdGV4dC1jZW50ZXJcIj5cbiAgICAgICAgICAgIDxoND5Nb250aGx5IFJlbnRhbHMgaW4gSmFwYW48L2g0PlxuICAgICAgICAgICAgPHA+SW4gSmFwYW4sIHlvdSBjYW4gcmVudCBhbiBhcGFydG1lbnQgZm9yIDMwIGRheXMgb3IgbW9yZSB3aXRob3V0IGEgbGljZW5zZS4gSG93ZXZlciBBaXJibmIgYW5kIG90aGVyIGJvb2tpbmcgc2l0ZXMgaGF2ZSBtYWRlIGl0IHBvbGljeSBub3QgdG8gYWNjZXB0IGFueSBsaXN0aW5ncyB1bmxlc3MgdGhleSBoYXZlIGEgc2hvcnQtdGVybSBib29raW5nIGxpY2Vuc2UuIEhlbmNlLCBJIGhhdmUgY3JlYXRlZCB0aGlzIHNpdGUgdG8gaG9wZWZ1bGx5IGFsbG93IG1lZGl1bS10ZXJtIHZpc2l0b3JzIHRvIFRva3lvIHRvIGZpbmQgYWZmb3JkYWJsZSBtb250aGx5IGFjY29tb2RhdGlvbi48L3A+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgIC5jYXJkLWxpbmt7XG4gICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgICAgICBjb2xvcjogYmxhY2s7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5jYXJkLWxpbms6aG92ZXJ7XG4gICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7IFxuICAgICAgICAgIH1cbiAgICAgICAgICBgfTwvc3R5bGU+XG4gICAgICA8L0xheW91dD5cbiAgICApXG4gICAgXG4gICBcbn1cblxuSW5kZXguZ2V0SW5pdGlhbFByb3BzID0gYXN5bmMgZnVuY3Rpb24oKSB7XG4gIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKFwiaHR0cHM6Ly9hcGkuY29pbmRlc2suY29tL3YxL2JwaS9jdXJyZW50cHJpY2UuanNvblwiKVxuICBjb25zdCBjb2luRGF0YSA9IGF3YWl0IHJlcy5qc29uKClcblxuICByZXR1cm4ge1xuICAgIGRhdGE6IGNvaW5EYXRhLFxuICAgIGNhcmRzOiBbXG4gICAgICB7XG4gICAgICBuYW1lOiBkYi5kYXRhWzBdLm5hbWUsXG4gICAgICBkZXNjcmlwdGlvbjogZGIuZGF0YVswXS5kZXNjcmlwdGlvbixcbiAgICAgIHByaWNlOiBkYi5kYXRhWzBdLnByaWNlLFxuICAgICAgcGhvdG86IHNwcmluZ1xuICAgIH0sXG4gICAgICB7XG4gICAgICBuYW1lOiBkYi5kYXRhWzFdLm5hbWUsXG4gICAgICBkZXNjcmlwdGlvbjogZGIuZGF0YVsxXS5kZXNjcmlwdGlvbixcbiAgICAgIHByaWNlOiBkYi5kYXRhWzBdLnByaWNlLFxuICAgICAgcGhvdG86IG1vdW50YWluXG4gICAgfSxcbiAgICAgIHtcbiAgICAgIG5hbWU6IGRiLmRhdGFbMl0ubmFtZSxcbiAgICAgIGRlc2NyaXB0aW9uOiBkYi5kYXRhWzJdLmRlc2NyaXB0aW9uLFxuICAgICAgcHJpY2U6IGRiLmRhdGFbMF0ucHJpY2UsXG4gICAgICBwaG90bzogeG1hc1xuICAgIH0gICAgXG4gIF1cbiAgfVxufVxuICBcbmV4cG9ydCBkZWZhdWx0IEluZGV4OyJdfQ== */\n/*@ sourceURL=/Users/admin/Desktop/chrysalis/two-day-mvp/pages/index.js */"));
 };
 
 Index.getInitialProps =
@@ -11799,14 +11798,17 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
             cards: [{
               name: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[0].name,
               description: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[0].description,
+              price: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[0].price,
               photo: _assets_spring_jpg__WEBPACK_IMPORTED_MODULE_9___default.a
             }, {
               name: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[1].name,
               description: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[1].description,
+              price: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[0].price,
               photo: _assets_mountain_jpg__WEBPACK_IMPORTED_MODULE_10___default.a
             }, {
               name: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[2].name,
               description: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[2].description,
+              price: _data_fakeData__WEBPACK_IMPORTED_MODULE_8__["default"].data[0].price,
               photo: _assets_xmas_jpg__WEBPACK_IMPORTED_MODULE_11___default.a
             }]
           });
@@ -11822,7 +11824,7 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Ftwo-day-mvp%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************/
@@ -11845,5 +11847,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

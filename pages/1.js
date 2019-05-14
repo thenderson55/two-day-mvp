@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
-import Link from 'next/link'
 import  db  from '../data/fakeData';
+import Form from '../components/Form'
+
 
 
 const Listing1 = (props) => {
@@ -12,7 +13,7 @@ const Listing1 = (props) => {
         <div className="card mb-3">
           <div className="card-body">
             <h5 className="card-title">{props.name}</h5>
-            <h6 className="card-subtitle text-muted">Price</h6>
+            <h6 className="card-subtitle text-muted">{props.price}</h6>
           </div>
 
           <div className="card-body">
@@ -44,24 +45,20 @@ const Listing1 = (props) => {
           </div>
 
           <ul className="list-group list-group-flush">
-            <li className="list-group-item">Cras justo odio</li>
-            <li className="list-group-item">Dapibus ac facilisis in</li>
-            <li className="list-group-item">Vestibulum at eros</li>
+            <li className="list-group-item">{props.description}</li>
+            <li className="list-group-item">{props.amenities}</li>
           </ul>
-          <div className="card-body">
-            <a href="#" className="card-link">
-              Card link
-            </a>
-            <a href="#" class="card-link">
-              Another link
-            </a>
-          </div>
+    
         </div>
+
+        <Form></Form>
+
 
         <style jsx>{`
           img {
             height: 200px;
             width: 300px;
+            margin-bottom: 20px;
           }
         `}</style>
       </Layout>
@@ -73,6 +70,8 @@ Listing1.getInitialProps = async ({ req }) => {
   return {
     name: db.data[1].name,
     description: db.data[1].description,
+    price: db.data[1].price,
+    amenities:db.data[1].amenities,
     photo: ''
 
   }

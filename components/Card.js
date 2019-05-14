@@ -13,10 +13,15 @@ class Card extends React.Component {
         <div className="card-header">{this.props.contacts}</div>
         <div className="card-body">
           <img src={this.props.photo} alt="" className="img-fluid"/>
-          <h4 className="card-title">Primary card title</h4>
+          <p className="card-title">{this.props.price}</p>
           <p className="card-text">{this.props.description}</p>
         </div>
       </div>
+      <style jsx>{`
+        .card-title {
+          margin-top: 10px;
+        }
+      `}</style>
     </div>
   )
   }

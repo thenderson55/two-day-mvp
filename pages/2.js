@@ -1,5 +1,7 @@
 import Layout from "../components/Layout";
 import  db  from '../data/fakeData';
+import Form from '../components/Form'
+
 
 
 const Listing2 = (props) => {
@@ -9,7 +11,7 @@ const Listing2 = (props) => {
         <div className="card mb-3">
           <div className="card-body">
             <h5 className="card-title">{props.name}</h5>
-            <h6 className="card-subtitle text-muted">Price</h6>
+            <h6 className="card-subtitle text-muted">{props.price}</h6>
           </div>
 
           <div className="card-body">
@@ -41,49 +43,19 @@ const Listing2 = (props) => {
           </div>
 
           <ul className="list-group list-group-flush">
-            <li className="list-group-item">Cras justo odio</li>
-            <li className="list-group-item">Dapibus ac facilisis in</li>
-            <li className="list-group-item">Vestibulum at eros</li>
+            <li className="list-group-item">{props.description}</li>
+            <li className="list-group-item">{props.amenities}</li>
           </ul>
-          <div className="card-body">
-            <a href="#" className="card-link">
-              Card link
-            </a>
-            <a href="#" class="card-link">
-              Another link
-            </a>
-          </div>
+        
         </div>
 
-        <form className="inquiry-form">
-  
-          <legend>Inquiry Form</legend>
-          
-
-          <div className="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
-            <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-
-          <div className="form-group">
-            <label for="exampleTextarea">Inquiry Details ( availability, etc.)</label>
-            <textarea className="form-control" />
-          </div>
-          
-            
-          <button type="submit" className="btn btn-primary">Submit</button>
-
-        </form>
-
+        <Form></Form>
 
         <style jsx>{`
           img {
             height: 200px;
             width: 300px;
-          }
-          .inquiry-form {
-            margin: 50px 0;
+            margin-bottom: 20px;
           }
         `}</style>
       </Layout>
@@ -95,6 +67,8 @@ Listing2.getInitialProps = async ({ req }) => {
   return {
     name: db.data[2].name,
     description: db.data[2].description,
+    price: db.data[2].price,
+    amenities:db.data[2].amenities,
     photo: ''
 
   }
