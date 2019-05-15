@@ -405,13 +405,15 @@ var db = {
     "description-long": "",
     "image": "../assets/spring.jpg",
     "price": "130,000 JPY per month",
+    "address": "Tokyo, Shinjuku-ku, Shinjuku 6-28-10",
     "amenities": "Double bed, Small Kitchen, TV, Sofa"
   }, {
     "name": "9 mins to Shinjuku",
-    "description": "Next to the amazing Shinjku Gyoen park!",
+    "description": "Next to the amazing Shinjuku Gyoen park!",
     "description-long": "",
     "image": "../assets/spring.jpg",
     "price": "140,000 JPY per month",
+    "address": "Tokyo, Shinjuku-ku, Shinjuku 2-4-1",
     "amenities": "Double bed, Small Kitchen, TV, Sofa, Wshing Machine"
   }, {
     "name": "A tent in 2-choume park",
@@ -15565,7 +15567,7 @@ function () {
 
 /***/ }),
 
-/***/ 4:
+/***/ 1:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F1&absolutePagePath=%2FUsers%2Fadmin%2FDesktop%2Fchrysalis%2Ftwo-day-mvp%2Fpages%2F1.js ***!
   \*************************************************************************************************************************************/
@@ -15588,5 +15590,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=1.js.map

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -498,13 +498,15 @@ var db = {
     "description-long": "",
     "image": "../assets/spring.jpg",
     "price": "130,000 JPY per month",
+    "address": "Tokyo, Shinjuku-ku, Shinjuku 6-28-10",
     "amenities": "Double bed, Small Kitchen, TV, Sofa"
   }, {
     "name": "9 mins to Shinjuku",
-    "description": "Next to the amazing Shinjku Gyoen park!",
+    "description": "Next to the amazing Shinjuku Gyoen park!",
     "description-long": "",
     "image": "../assets/spring.jpg",
     "price": "140,000 JPY per month",
+    "address": "Tokyo, Shinjuku-ku, Shinjuku 2-4-1",
     "amenities": "Double bed, Small Kitchen, TV, Sofa, Wshing Machine"
   }, {
     "name": "A tent in 2-choume park",
@@ -2279,7 +2281,7 @@ function () {
 
 /***/ }),
 
-/***/ 7:
+/***/ 4:
 /*!**************************!*\
   !*** multi ./pages/1.js ***!
   \**************************/
