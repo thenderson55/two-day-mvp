@@ -1,5 +1,5 @@
 const axios = require('axios')
-const db = require('../server/knex')
+// const db = require('../server/knex')
 
 const {
   GraphQLObjectType,
@@ -50,13 +50,13 @@ const Apartments = new GraphQLObjectType({
 const RootQuery = new GraphQLObjectType({
   name: "RootQueryType",
   fields: {
-    apartments: {
-      type: new GraphQLList(Apartments),
-      resolve(parent, args) {
-        return db.select().table("apartments")
-        .then(res => res);
-      }
-    },
+    // apartments: {
+    //   type: new GraphQLList(Apartments),
+    //   resolve(parent, args) {
+    //     return db.select().table("apartments")
+    //     .then(res => res);
+    //   }
+    // },
     beers: {
       type: new GraphQLList(BeerType),
       resolve(parent, args) {
