@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from '../components/Layout'
 import  db  from '../data/fakeData';
 import Form from '../components/Form'
 import pic1 from '../assets/aptOne1.jpg'
