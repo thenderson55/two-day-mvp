@@ -1,4 +1,4 @@
-import Layout from "./Layout";
+import Layout from "../pages/_app";
 
 class Listing extends React.Component {
   render() {

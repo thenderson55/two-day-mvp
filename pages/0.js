@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from '../components/Layout'
 import  db  from '../data/fakeData';
 import Form from '../components/Form'
 import a9mins1 from '../assets/a9mins1.jpg'
