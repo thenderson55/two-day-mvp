@@ -1,7 +1,7 @@
 ## Two-day MVP 
 
 This was created over two-days while as a student at Code Chrysalis, Tokyo, Japan.
-The assigment was to create an MVP using at least one new tech feature.  🇯🇵  🏯 🗼
+The assignment was to create an MVP using at least one new tech feature.  🇯🇵  🏯 🗼
 
 ## Tokyo Monthly
 
@@ -23,6 +23,7 @@ https://tokyo-monthly.herokuapp.com/
 
 ## Installation
 
+```
 $ git clone https://github.com/thenderson55/two-day-mvp.git
  
 $ cd two-day-mvp
@@ -32,6 +33,7 @@ $ npm install
 $ npm run dev
 
 go to localhost:5000
+```
 
 
 🐳
